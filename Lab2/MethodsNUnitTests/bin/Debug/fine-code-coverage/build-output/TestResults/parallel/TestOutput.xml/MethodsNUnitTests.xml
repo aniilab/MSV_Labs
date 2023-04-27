@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="MethodsNUnitTests.dll" fullname="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug\MethodsNUnitTests.dll" runstate="Runnable" testcasecount="16" result="Passed" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10" engine-version="3.15.3.0" clr-version="4.0.30319.42000" start-time="2023-04-27 08:47:03Z" end-time="2023-04-27 08:47:03Z" duration="0.748667">
+  <command-line><![CDATA["C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\TestPlatform\Extensions\..\testhost.net472.exe"  --port 62542 --endpoint 127.0.0.1:062542 --role client --parentprocessid 7316 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>NumericMethodsLab1.Tests.MethodsTests.AllRoots_FluentAssertions</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.APrioriDichotomy_ValidInput_ExpectedResult</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.AprioriSI_ValidInput_ExpectedResult</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.FiFunc_ValidInput_Calculation</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.FiFuncDer_ValidInput_Calculation</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.Function_ValidInput_Calculation</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.Function_ValidInput_PositiveResult</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.FunctionDer_ValidInput_Calculation</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.FunctionDer2_ValidInput_Calculation</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.KindsOfFunction_FluentAssertions</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.CheckFI_ValidInput_ExpectedResult(-1,0.5d,0.5d)</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.CheckFI_ValidInput_ExpectedResult(-1,0.5d,-1)</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1018" name="MethodsNUnitTests.dll" fullname="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug\MethodsNUnitTests.dll" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:03.1982967Z" end-time="2023-04-27T08:47:03.8338061Z" duration="0.633996" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+    <environment framework-version="3.13.3.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19044.0" platform="Win32NT" cwd="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug" machine-name="ALINA" user="AlinaB" user-domain="ALINA" culture="uk-UA" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="NumberOfTestWorkers" value="0" />
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="InternalTraceLevel" value="Off" />
+      <setting name="RandomSeed" value="330773906" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.7.2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="13044" />
+      <property name="_APPDOMAIN" value="domain-61488e37-MethodsNUnitTests.dll" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1019" name="NumericMethodsLab1" fullname="NumericMethodsLab1" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:03.2282948Z" end-time="2023-04-27T08:47:03.8338061Z" duration="0.605788" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+      <test-suite type="TestSuite" id="0-1020" name="Tests" fullname="NumericMethodsLab1.Tests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:03.2282948Z" end-time="2023-04-27T08:47:03.8338061Z" duration="0.605312" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <test-suite type="TestFixture" id="0-1000" name="MethodsTests" fullname="NumericMethodsLab1.Tests.MethodsTests" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:03.2282948Z" end-time="2023-04-27T08:47:03.8338061Z" duration="0.605277" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <test-case id="0-1016" name="AllRoots_FluentAssertions" fullname="NumericMethodsLab1.Tests.MethodsTests.AllRoots_FluentAssertions" methodname="AllRoots_FluentAssertions" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1132406379" result="Passed" start-time="2023-04-27T08:47:03.2332914Z" end-time="2023-04-27T08:47:03.7438066Z" duration="0.510417" asserts="0">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1014" name="APrioriDichotomy_ValidInput_ExpectedResult" fullname="NumericMethodsLab1.Tests.MethodsTests.APrioriDichotomy_ValidInput_ExpectedResult" methodname="APrioriDichotomy_ValidInput_ExpectedResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1164090521" result="Passed" start-time="2023-04-27T08:47:03.7468083Z" end-time="2023-04-27T08:47:03.8148085Z" duration="0.067702" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1015" name="AprioriSI_ValidInput_ExpectedResult" fullname="NumericMethodsLab1.Tests.MethodsTests.AprioriSI_ValidInput_ExpectedResult" methodname="AprioriSI_ValidInput_ExpectedResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1944846733" result="Passed" start-time="2023-04-27T08:47:03.8148085Z" end-time="2023-04-27T08:47:03.8148085Z" duration="0.000574" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="0-1009" name="CheckFI_ValidInput_ExpectedResult" fullname="NumericMethodsLab1.Tests.MethodsTests.CheckFI_ValidInput_ExpectedResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-04-27T08:47:03.8148085Z" end-time="2023-04-27T08:47:03.8268132Z" duration="0.011943" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+            <test-case id="0-1007" name="CheckFI_ValidInput_ExpectedResult(-1,0.5d,0.5d)" fullname="NumericMethodsLab1.Tests.MethodsTests.CheckFI_ValidInput_ExpectedResult(-1,0.5d,0.5d)" methodname="CheckFI_ValidInput_ExpectedResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="497156166" result="Passed" start-time="2023-04-27T08:47:03.8158196Z" end-time="2023-04-27T08:47:03.8238068Z" duration="0.008523" asserts="1" />
+            <test-case id="0-1008" name="CheckFI_ValidInput_ExpectedResult(-1,0.5d,-1)" fullname="NumericMethodsLab1.Tests.MethodsTests.CheckFI_ValidInput_ExpectedResult(-1,0.5d,-1)" methodname="CheckFI_ValidInput_ExpectedResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1868208194" result="Passed" start-time="2023-04-27T08:47:03.8238068Z" end-time="2023-04-27T08:47:03.8248039Z" duration="0.000189" asserts="1" />
+          </test-suite>
+          <test-case id="0-1005" name="FiFunc_ValidInput_Calculation" fullname="NumericMethodsLab1.Tests.MethodsTests.FiFunc_ValidInput_Calculation" methodname="FiFunc_ValidInput_Calculation" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="2072878970" result="Passed" start-time="2023-04-27T08:47:03.8278061Z" end-time="2023-04-27T08:47:03.8288047Z" duration="0.001191" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1006" name="FiFuncDer_ValidInput_Calculation" fullname="NumericMethodsLab1.Tests.MethodsTests.FiFuncDer_ValidInput_Calculation" methodname="FiFuncDer_ValidInput_Calculation" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1741065806" result="Passed" start-time="2023-04-27T08:47:03.8288047Z" end-time="2023-04-27T08:47:03.8298037Z" duration="0.000241" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1001" name="Function_ValidInput_Calculation" fullname="NumericMethodsLab1.Tests.MethodsTests.Function_ValidInput_Calculation" methodname="Function_ValidInput_Calculation" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1008608567" result="Passed" start-time="2023-04-27T08:47:03.8298037Z" end-time="2023-04-27T08:47:03.8298037Z" duration="0.000164" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1002" name="Function_ValidInput_PositiveResult" fullname="NumericMethodsLab1.Tests.MethodsTests.Function_ValidInput_PositiveResult" methodname="Function_ValidInput_PositiveResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="2001641829" result="Passed" start-time="2023-04-27T08:47:03.8298037Z" end-time="2023-04-27T08:47:03.8308032Z" duration="0.000846" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1003" name="FunctionDer_ValidInput_Calculation" fullname="NumericMethodsLab1.Tests.MethodsTests.FunctionDer_ValidInput_Calculation" methodname="FunctionDer_ValidInput_Calculation" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="571462305" result="Passed" start-time="2023-04-27T08:47:03.8308032Z" end-time="2023-04-27T08:47:03.8308032Z" duration="0.000207" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1004" name="FunctionDer2_ValidInput_Calculation" fullname="NumericMethodsLab1.Tests.MethodsTests.FunctionDer2_ValidInput_Calculation" methodname="FunctionDer2_ValidInput_Calculation" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="516123873" result="Passed" start-time="2023-04-27T08:47:03.8308032Z" end-time="2023-04-27T08:47:03.8308032Z" duration="0.000167" asserts="1">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1017" name="KindsOfFunction_FluentAssertions" fullname="NumericMethodsLab1.Tests.MethodsTests.KindsOfFunction_FluentAssertions" methodname="KindsOfFunction_FluentAssertions" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="598119917" result="Passed" start-time="2023-04-27T08:47:03.8308032Z" end-time="2023-04-27T08:47:03.8328090Z" duration="0.002179" asserts="0">
+            <properties>
+              <property name="Category" value="ParallelTests" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

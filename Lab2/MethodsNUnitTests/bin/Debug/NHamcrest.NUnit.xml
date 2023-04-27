@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NHamcrest.NUnit</name>
+    </assembly>
+    <members>
+        <member name="T:NHamcrest.NUnit.AssertEx">
+            <summary>
+            Assert extension for NUnit.
+            </summary>
+        </member>
+        <member name="M:NHamcrest.NUnit.AssertEx.That``1(``0,NHamcrest.IMatcher{``0})">
+            <summary>
+            Checks if actual matches in IMatcher.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="actual"></param>
+            <param name="matcher"></param>
+        </member>
+        <member name="M:NHamcrest.NUnit.AssertEx.That``1(``0,NHamcrest.IMatcher{``0},System.String)">
+            <summary>
+            Checks if actual matches in IMatcher.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="actual"></param>
+            <param name="matcher"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:NHamcrest.NUnit.AssertEx.That``1(``0,NHamcrest.IMatcher{``0},System.String,System.Object[])">
+            <summary>
+            Checks if actual matches in IMatcher.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="actual"></param>
+            <param name="matcher"></param>
+            <param name="message"></param>
+            <param name="args"></param>
+            <exception cref="T:NUnit.Framework.AssertionException"></exception>
+        </member>
+    </members>
+</doc>

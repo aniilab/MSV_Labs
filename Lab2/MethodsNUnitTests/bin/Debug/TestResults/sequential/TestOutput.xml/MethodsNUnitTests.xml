@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="MethodsNUnitTests.dll" fullname="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug\MethodsNUnitTests.dll" runstate="Runnable" testcasecount="16" result="Passed" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.15.3.0" clr-version="4.0.30319.42000" start-time="2023-04-27 08:47:40Z" end-time="2023-04-27 08:47:41Z" duration="0.292113">
+  <command-line><![CDATA["C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\TestPlatform\Extensions\..\testhost.net472.exe"  --port 62551 --endpoint 127.0.0.1:062551 --role client --parentprocessid 7316 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>NumericMethodsLab1.Tests.MethodsTests.Dichotomy_ValidInput_ReturnX</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.MNewtonMethod_ValidInput_ReturnX</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.SimpleIteration_InvalidFiFunction_Exception</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.SimpleIteration_ValidInput_ReturnX</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1018" name="MethodsNUnitTests.dll" fullname="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug\MethodsNUnitTests.dll" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:40.8990805Z" end-time="2023-04-27T08:47:41.1216112Z" duration="0.221179" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.13.3.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19044.0" platform="Win32NT" cwd="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug" machine-name="ALINA" user="AlinaB" user-domain="ALINA" culture="uk-UA" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="NumberOfTestWorkers" value="1" />
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="InternalTraceLevel" value="Off" />
+      <setting name="RandomSeed" value="330773906" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.7.2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10772" />
+      <property name="_APPDOMAIN" value="domain-61488e37-MethodsNUnitTests.dll" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1019" name="NumericMethodsLab1" fullname="NumericMethodsLab1" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:40.9350912Z" end-time="2023-04-27T08:47:41.1216112Z" duration="0.186972" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <test-suite type="TestSuite" id="0-1020" name="Tests" fullname="NumericMethodsLab1.Tests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:40.9371022Z" end-time="2023-04-27T08:47:41.1216112Z" duration="0.184505" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <test-suite type="TestFixture" id="0-1000" name="MethodsTests" fullname="NumericMethodsLab1.Tests.MethodsTests" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2023-04-27T08:47:40.9420915Z" end-time="2023-04-27T08:47:41.1196114Z" duration="0.178376" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="0-1012" name="Dichotomy_ValidInput_ReturnX" fullname="NumericMethodsLab1.Tests.MethodsTests.Dichotomy_ValidInput_ReturnX" methodname="Dichotomy_ValidInput_ReturnX" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1859264215" result="Passed" start-time="2023-04-27T08:47:40.9501029Z" end-time="2023-04-27T08:47:41.1006003Z" duration="0.150506" asserts="1">
+            <properties>
+              <property name="Category" value="SequentialTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1013" name="MNewtonMethod_ValidInput_ReturnX" fullname="NumericMethodsLab1.Tests.MethodsTests.MNewtonMethod_ValidInput_ReturnX" methodname="MNewtonMethod_ValidInput_ReturnX" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="402428679" result="Passed" start-time="2023-04-27T08:47:41.1046040Z" end-time="2023-04-27T08:47:41.1046040Z" duration="0.000556" asserts="1">
+            <properties>
+              <property name="Category" value="SequentialTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1010" name="SimpleIteration_InvalidFiFunction_Exception" fullname="NumericMethodsLab1.Tests.MethodsTests.SimpleIteration_InvalidFiFunction_Exception" methodname="SimpleIteration_InvalidFiFunction_Exception" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="2109863908" result="Passed" start-time="2023-04-27T08:47:41.1046040Z" end-time="2023-04-27T08:47:41.1166087Z" duration="0.011587" asserts="1">
+            <properties>
+              <property name="Category" value="SequentialTests" />
+            </properties>
+          </test-case>
+          <test-case id="0-1011" name="SimpleIteration_ValidInput_ReturnX" fullname="NumericMethodsLab1.Tests.MethodsTests.SimpleIteration_ValidInput_ReturnX" methodname="SimpleIteration_ValidInput_ReturnX" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="1534865618" result="Passed" start-time="2023-04-27T08:47:41.1166087Z" end-time="2023-04-27T08:47:41.1166087Z" duration="0.000254" asserts="1">
+            <properties>
+              <property name="Category" value="SequentialTests" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
