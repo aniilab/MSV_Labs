@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="MethodsNUnitTests.dll" fullname="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug\MethodsNUnitTests.dll" runstate="Runnable" testcasecount="6" result="Failed" total="6" passed="1" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.15.3.0" clr-version="4.0.30319.42000" start-time="2023-05-10 16:52:39Z" end-time="2023-05-10 16:52:40Z" duration="1.210076">
+  <command-line><![CDATA["C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\TestPlatform\Extensions\..\testhost.net472.exe"  --port 53922 --endpoint 127.0.0.1:053922 --role client --parentprocessid 12928 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>NumericMethodsLab1.Tests.MethodsTests.Function_Throws_Exception</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.GetGap_CallsReadData_Once</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.GetGap_CallsReadData_Twice_WhenFirstCallFails</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.GetGap_ReturnsExpectedResult</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.GetGap_ThrowsException_WhenReadDataFails</test>
+      <test>NumericMethodsLab1.Tests.MethodsTests.GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1007" name="MethodsNUnitTests.dll" fullname="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug\MethodsNUnitTests.dll" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-05-10T16:52:39.6693267Z" end-time="2023-05-10T16:52:40.8309186Z" duration="1.160499" total="6" passed="1" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.13.3.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19044.0" platform="Win32NT" cwd="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug" machine-name="ALINA" user="AlinaB" user-domain="ALINA" culture="uk-UA" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="NumberOfTestWorkers" value="0" />
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="InternalTraceLevel" value="Off" />
+      <setting name="RandomSeed" value="1477504439" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="D:\c#\NumericMethodsLab1\MethodsNUnitTests\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.7.2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12228" />
+      <property name="_APPDOMAIN" value="domain-61488e37-MethodsNUnitTests.dll" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1008" name="NumericMethodsLab1" fullname="NumericMethodsLab1" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-05-10T16:52:39.7053265Z" end-time="2023-05-10T16:52:40.8309186Z" duration="1.126284" total="6" passed="1" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1009" name="Tests" fullname="NumericMethodsLab1.Tests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-05-10T16:52:39.7063268Z" end-time="2023-05-10T16:52:40.8309186Z" duration="1.125308" total="6" passed="1" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1000" name="MethodsTests" fullname="NumericMethodsLab1.Tests.MethodsTests" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-05-10T16:52:39.7063268Z" end-time="2023-05-10T16:52:40.8299178Z" duration="1.124307" total="6" passed="1" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1003" name="Function_Throws_Exception" fullname="NumericMethodsLab1.Tests.MethodsTests.Function_Throws_Exception" methodname="Function_Throws_Exception" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="272299933" result="Failed" start-time="2023-05-10T16:52:39.7223266Z" end-time="2023-05-10T16:52:40.6818903Z" duration="0.959997" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <System.InvalidOperationException>
+  But was:  null
+]]></message>
+              <stack-trace><![CDATA[   at NumericMethodsLab1.Tests.MethodsTests.Function_Throws_Exception() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 59
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <System.InvalidOperationException>
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[   at NumericMethodsLab1.Tests.MethodsTests.Function_Throws_Exception() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 59
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1005" name="GetGap_CallsReadData_Once" fullname="NumericMethodsLab1.Tests.MethodsTests.GetGap_CallsReadData_Once" methodname="GetGap_CallsReadData_Once" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="370569933" result="Failed" label="Error" start-time="2023-05-10T16:52:40.6848941Z" end-time="2023-05-10T16:52:40.7828921Z" duration="0.097712" asserts="0">
+            <failure>
+              <message><![CDATA[Moq.MockException : 
+Expected invocation on the mock once, but was 2 times: x => x.ReadData()
+
+Performed invocations:
+
+   Mock<IFileDataService:2> (x):
+
+      IFileDataService.ReadData()
+      IFileDataService.ReadData()
+]]></message>
+              <stack-trace><![CDATA[   at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage) in C:\projects\moq4\src\Moq\Mock.cs:line 330
+   at Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times) in C:\projects\moq4\src\Moq\Mock`1.cs:line 841
+   at NumericMethodsLab1.Tests.MethodsTests.GetGap_CallsReadData_Once() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 86]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1006" name="GetGap_CallsReadData_Twice_WhenFirstCallFails" fullname="NumericMethodsLab1.Tests.MethodsTests.GetGap_CallsReadData_Twice_WhenFirstCallFails" methodname="GetGap_CallsReadData_Twice_WhenFirstCallFails" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="7047473" result="Failed" label="Error" start-time="2023-05-10T16:52:40.7828921Z" end-time="2023-05-10T16:52:40.7919188Z" duration="0.009732" asserts="0">
+            <failure>
+              <message><![CDATA[System.IO.IOException : I/O error occurred.]]></message>
+              <stack-trace><![CDATA[   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in C:\projects\moq4\src\Moq\Behaviors\ThrowException.cs:line 22
+   at Moq.SequenceSetup.ExecuteCore(Invocation invocation) in C:\projects\moq4\src\Moq\SequenceSetup.cs:line 49
+   at Moq.Setup.Execute(Invocation invocation) in C:\projects\moq4\src\Moq\Setup.cs:line 86
+   at Moq.FindAndExecuteMatchingSetup.Handle(Invocation invocation, Mock mock) in C:\projects\moq4\src\Moq\Interception\InterceptionAspects.cs:line 96
+   at Moq.Mock.Moq.IInterceptor.Intercept(Invocation invocation) in C:\projects\moq4\src\Moq\Interception\Mock.cs:line 15
+   at Moq.CastleProxyFactory.Interceptor.Intercept(IInvocation underlying) in C:\projects\moq4\src\Moq\Interception\CastleProxyFactory.cs:line 113
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IFileDataServiceProxy.ReadData()
+   at NumericMethodsLab1.Methods.GetGap() in D:\c#\NumericMethodsLab1\WindowsFormsApp1\Methods.cs:line 26
+   at NumericMethodsLab1.Tests.MethodsTests.GetGap_CallsReadData_Twice_WhenFirstCallFails() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 99]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1001" name="GetGap_ReturnsExpectedResult" fullname="NumericMethodsLab1.Tests.MethodsTests.GetGap_ReturnsExpectedResult" methodname="GetGap_ReturnsExpectedResult" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="990075603" result="Failed" label="Error" start-time="2023-05-10T16:52:40.7919188Z" end-time="2023-05-10T16:52:40.8149003Z" duration="0.022399" asserts="1">
+            <failure>
+              <message><![CDATA[Moq.MockException : 
+Expected invocation on the mock once, but was 2 times: x => x.ReadData()
+
+Performed invocations:
+
+   Mock<IFileDataService:4> (x):
+
+      IFileDataService.ReadData()
+      IFileDataService.ReadData()
+]]></message>
+              <stack-trace><![CDATA[   at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage) in C:\projects\moq4\src\Moq\Mock.cs:line 330
+   at Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times) in C:\projects\moq4\src\Moq\Mock`1.cs:line 841
+   at NumericMethodsLab1.Tests.MethodsTests.GetGap_ReturnsExpectedResult() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 33]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1002" name="GetGap_ThrowsException_WhenReadDataFails" fullname="NumericMethodsLab1.Tests.MethodsTests.GetGap_ThrowsException_WhenReadDataFails" methodname="GetGap_ThrowsException_WhenReadDataFails" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="677374593" result="Passed" start-time="2023-05-10T16:52:40.8149003Z" end-time="2023-05-10T16:52:40.8239189Z" duration="0.008894" asserts="1" />
+          <test-case id="0-1004" name="GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues" fullname="NumericMethodsLab1.Tests.MethodsTests.GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues" methodname="GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues" classname="NumericMethodsLab1.Tests.MethodsTests" runstate="Runnable" seed="188873521" result="Failed" start-time="2023-05-10T16:52:40.8239189Z" end-time="2023-05-10T16:52:40.8279180Z" duration="0.003856" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+              <stack-trace><![CDATA[   at NumericMethodsLab1.Tests.MethodsTests.GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 71
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[   at NumericMethodsLab1.Tests.MethodsTests.GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues() in D:\c#\NumericMethodsLab1\MethodsNUnitTests\MethodsTests.cs:line 71
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
