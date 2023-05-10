@@ -10,14 +10,16 @@ namespace NumericMethodsLab1
         public double qSI = 0;
 
         private IFileDataService _fileDataService;
-        public Methods() 
-        {
-            _fileDataService = new FileDataService();
-        }
+        private IMethods _methods;
 
         public Methods(IFileDataService fileDataService) 
         {
             _fileDataService = fileDataService;
+        }
+
+        public Methods(IMethods methods)
+        {
+            _methods = methods;
         }
 
 
@@ -25,8 +27,12 @@ namespace NumericMethodsLab1
         {
             double a = _fileDataService.ReadData().Item1;
             double b = _fileDataService.ReadData().Item2;
+
+            if (a > b) throw new ArgumentOutOfRangeException("False gap. A must be smaller than B.");
+
             return (a, b);
         }
+
 
         public double Function(double x)
         {

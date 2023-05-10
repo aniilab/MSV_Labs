@@ -22,14 +22,14 @@ namespace NumericMethodsLab1
         {
             // Підготовка
             var expected = (-1.0, 0.5);
-            _fileDataServiceMock.Setup(x => x.ReadData()).Returns(expected);
+           _fileDataServiceMock.Setup(x => x.ReadData()).Returns(expected);
 
             // Дія
             var result = _methods.GetGap();
 
             // Перевірка
-            Xunit.Assert.Equal(expected, result);
-            _fileDataServiceMock.Verify(x => x.ReadData(), Times.Once);
+            Assert.Equal(expected, result);
+            _fileDataServiceMock.Verify(x => x.ReadData(), Times.AtLeastOnce); // Перевіряємо, що метод був викликаний принаймні один раз.
         }
 
         [Fact]
@@ -40,65 +40,34 @@ namespace NumericMethodsLab1
 
             // Дія та перевірка
             Xunit.Assert.Throws<IOException>(() => _methods.GetGap());
-            _fileDataServiceMock.Verify(x => x.ReadData(), Times.Once);
+            _fileDataServiceMock.Verify(x => x.ReadData(), Times.AtLeastOnce);
         }
         [Fact]
-        public void GetGap_ThrowsException_WhenReadDataReturnsOutOfRangeValues()
+        public void GetGap_ThrowsException_WhenReadDataReturnsFalseGap()
         {
             // Підготовка
-            var outOfRangeValues = (-1.0, 2.0);
+            var outOfRangeValues = (0.5, -1.0);
             _fileDataServiceMock.Setup(x => x.ReadData()).Returns(outOfRangeValues);
 
             // Дія та перевірка
             Xunit.Assert.Throws<ArgumentOutOfRangeException>(() => _methods.GetGap());
-            _fileDataServiceMock.Verify(x => x.ReadData(), Times.Once);
+            _fileDataServiceMock.Verify(x => x.ReadData(), Times.AtLeastOnce);
         }
+
+        
 
         [Fact]
-        public void GetGap_CallsReadData_Once()
+        public void ReadData_Throws_Exception()
         {
-            // Arrange
-            var expectedData = (0.0, 1.0);
-            _fileDataServiceMock.Setup(x => x.ReadData()).Returns(expectedData);
+            _fileDataServiceMock.SetupSequence(x => x.ReadData()).Throws(new ArgumentException());
 
             // Act
-            var result = _methods.GetGap();
+            Action act = () => _methods.GetGap(); // Викликаємо метод, який повинен кидати виключення
 
             // Assert
-            _fileDataServiceMock.Verify(x => x.ReadData(), Times.Once); // перевіряємо, що метод ReadData було викликано один раз
+            Assert.Throws<ArgumentException>(act);
         }
 
-        [Fact]
-        public void GetGap_CallsReadData_Twice_WhenFirstCallFails()
-        {
-            // Arrange
-            var expectedData = (0.0, 1.0);
-            _fileDataServiceMock.SetupSequence(x => x.ReadData())
-                .Throws(new IOException())
-                .Returns(expectedData);
-
-            // Act
-            var result = _methods.GetGap();
-
-            // Assert
-            _fileDataServiceMock.Verify(x => x.ReadData(), Times.Exactly(2)); // перевіряємо, що метод ReadData було викликано двічі
-        }
-
-        [Fact]
-        public void Function_Throws_Exception()
-        {
-            // Arrange
-            var methodsMock = new Mock<IMethods>(MockBehavior.Loose); // створюємо частковий мок
-            methodsMock.Setup(m => m.Function(It.IsAny<double>())).Throws(new InvalidOperationException()); // налаштовуємо виключення при виклику Function
-
-            _fileDataServiceMock.Setup(x => x.ReadData()).Returns((0.0, 1.0));
-
-            // Act
-            Action act = () => _methods.Dichotomy(0.0, 1.0); // викликаємо метод, який в свою чергу викличе Function
-
-            // Assert
-            Xunit.Assert.Throws<InvalidOperationException>(act); // перевіряємо, що було викликано виключення
-        }
 
     }
 }

@@ -12,11 +12,15 @@ namespace NumericMethodsLab1
 {
     public partial class NumericMethods : Form
     {
-        Methods method = new Methods();
+        
+        Methods method;
         double a;
         double b;
+        private IFileDataService _fileDataService;
         public NumericMethods()
         {
+            _fileDataService = new FileDataService();
+            method = new Methods(_fileDataService);
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
             a = method.GetGap().Item1;
